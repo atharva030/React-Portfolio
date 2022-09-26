@@ -43,13 +43,15 @@ import isp from '../Images/isp.png'
 
         <div className="box">
         <a href="https://drive.google.com/file/d/1N8kh4WRiXy3mhXfzMRvnoxMdd8TfScts/view?usp=sharing">
+        
             <img src={sih} alt="Web"/>
             <span style={{color: "white"}}>Smart India Hackathon</span></a>
         </div>
 
         <div className="box">
+        <a href="https://drive.google.com/file/d/16HfIqiQJ_T9rSOPbQVMoOFrA9fQWyS3d/view?usp=sharing">
             <img src={isp} alt="Web design"/>
-            <span style={{color: "white"}}>Internshala Student Partner</span>
+            <span style={{color: "white"}}>Internshala Student Partner</span></a>
         </div>
 
     </div>
