@@ -42,8 +42,9 @@ import isp from '../Images/isp.png'
         </div>
 
         <div className="box">
+        <a href="https://drive.google.com/file/d/1N8kh4WRiXy3mhXfzMRvnoxMdd8TfScts/view?usp=sharing">
             <img src={sih} alt="Web"/>
-            <span style={{color: "white"}}>Smart India Hackathon</span>
+            <span style={{color: "white"}}>Smart India Hackathon</span></a>
         </div>
 
         <div className="box">
