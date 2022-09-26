@@ -7,6 +7,7 @@ import Edulogy from '../Images/Edulogy.png'
 import sih from '../Images/sih.jpg'
 import isp from '../Images/isp.png'
  const Projects = () => {
+    
   return (
     
     <section className="projects" id="projects">
