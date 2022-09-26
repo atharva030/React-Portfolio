@@ -1,0 +1,18 @@
+
+.text-footer {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	padding: 30px 0;
+	background-color: #e1d9d1;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	background-color: #191919;
+	font-size: 17px;
+	color: #bca8a8;
+}

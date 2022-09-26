@@ -1,0 +1,52 @@
+
+.com-container{
+    padding: 11rem 6rem 10rem;
+}
+.about .row {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 1rem 0;
+}
+
+ .info {
+	flex: 1 1 48rem;
+	padding: 2rem 1rem;
+	padding-left: 5em;
+}
+
+ .info h3 {
+	font-size: 2rem;
+	color: #89cfe7;
+	padding: 1rem 0;
+	font-weight: normal;
+}
+
+.info h3 span {
+	color: #eee;
+	padding: 0 .5rem;
+}
+
+.container-Ed-to-end {
+	flex: 1 1 48rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+ .container-Ed-to-end .box {
+	width: rem;
+	background: #191919;
+	padding: 2rem;
+	margin: 2rem;
+}
+
+.about .row .container-Ed-to-end .box span {
+	font-size: 2.0rem;
+	color: crimson
+}
+
+ .container-Ed-to-end .box h3 {
+	font-size: 25px;
+	color: #fff;
+}

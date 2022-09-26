@@ -1,0 +1,94 @@
+
+.contact .row {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.contact .row .content {
+	flex: 1 1 24rem;
+	padding: 4rem 7rem;
+	padding-bottom: 0;
+}
+
+.contact .row .info {
+	flex: 1 1 48rem;
+	padding: 0px;
+}
+
+.contact .row form {
+	flex: 0 56rem;
+	padding: 2rem;
+	margin: 2rem;
+	margin-bottom: 4rem;
+}
+
+.contact .row form .box {
+	padding: 1.5rem;
+	margin: 1rem 0;
+	background: #3333;
+	color: #fff;
+	text-transform: none;
+	font-size: 1.7rem;
+	width: 44rem;
+}
+
+.contact .row form .box::placeholder {
+	text-transform: capitalize;
+}
+
+.contact .row form .message {
+	height: 15rem;
+	resize: none;
+	width: 44rem;
+}
+
+.contact .row .content .title {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 3rem;
+	padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3 {
+	display: flex;
+	align-items: center;
+	font-size: 2rem;
+	color: #eee;
+	padding: 1rem 0;
+	font-weight: normal;
+}
+
+.contact .row .content .info h3 i {
+	padding-right: 1rem;
+	color: #89cfe7;
+}
+
+.send {
+	display: inline-block;
+	margin: 1rem 1.6rem;
+	border-radius: 5rem;
+	background: crimson;
+	padding: .7rem;
+	font-size: 1.7rem;
+	color: #fff;
+	padding-left: 2rem;
+	cursor: pointer;
+}
+
+.send i {
+	
+	line-height: 4rem;
+	background: #fff;
+	color: crimson;
+	border-radius: 50%;
+	margin-left: 1rem;
+	-webkit-transition: .2s linear;
+	transition: .2s linear;
+  padding: 5px 9px;
+  font-size: 1.8rem;
+}
+
+.send i:hover {
+	margin-left: 2rem;
+}
