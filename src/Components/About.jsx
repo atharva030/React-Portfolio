@@ -12,7 +12,7 @@ const About = () => {
         </h1>
         <div className="info">
           <h3 className="title-style">
-            <span> Name : </span> Atharva Jagdale
+            <span> Name : </span> Atharva Suhas Jagdale
           </h3>
           <h3 className="title-style">
             <span> Age : </span> 20
