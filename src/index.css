@@ -129,9 +129,9 @@ section {
 	cursor: pointer;
 }
 
-
-
-
+.mobile-menu-icon{
+  display: none;
+}
 .all-btn i:hover {
 	margin-left: 2rem;
 }
@@ -151,20 +151,23 @@ section {
 
 }
 
-@media (max-width:991px){
+@media screen and (max-width:991px){
 
- header{
-     left:-120%;
-     transition: all 0.7s ease-out;
+ .header{
+  display: none;
  }
- #burger{
+ .mobile-menu-icon{
   display: block;
+  position: absolute;
+  left: 91%;
+  color: white;
+  background: #3b3535;
+  top: 5%;
+  padding: 7px;
+  height: 35px;
+  width: 35px;
 }
 
-
- header.toggle{
-  left:0%;
- }
 
  body{
      padding:0;

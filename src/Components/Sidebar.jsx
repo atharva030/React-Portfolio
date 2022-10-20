@@ -2,35 +2,14 @@ import { useState,React } from "react";
 import { BsTwitter, BsEnvelopeFill } from "react-icons/bs";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { GiHamburgerMenu} from "react-icons/gi";
+import { IoClose} from "react-icons/io5";
 import atharva  from '../Images/atharva.jpeg'
 import sidecss from "../Styles/Sidebar.css";
 const Sidebar = () => {
-
-
-
-
- 
- console.log(sidecss);
-   const stylecss={
-    hamburger: {
-      position: "fixed",
-      top: "2rem",
-      right: "2rem",
-      background:" #333",
-      color:" #fff",
-      cursor: "pointer",
-      height: "35px",
-      fontSize: "2.5rem",
-      padding:" 2px 7px",
-      zIndex: "1",
-      display: "none"
-    }
-  //   left:`${active?"0%":"-120%"}`,
-  }
-  
+  const [isMobile, setIsMobile] = useState(false)
   return (
     <>
-      <header className="header" >
+      <header className={isMobile?"mobile":"header"} >
         {/* <button><GiHamburgerMenu size={30}/></button> */}
         <div className="user">
           <img src={atharva} alt="profile photo" />
@@ -39,7 +18,7 @@ const Sidebar = () => {
         </div>
 
         <nav className="navbar">
-          <ul>
+          <ul onClick={()=>setIsMobile(false)}>
             <li>
               <a href="#home" >
                 Home
@@ -86,6 +65,9 @@ const Sidebar = () => {
         </div>
       </header>
       <div id="burger" className="fa fa-bars"></div>
+    <button className="mobile-menu-icon" onClick={()=>setIsMobile(!isMobile)}>
+      {!isMobile? <GiHamburgerMenu size={20}/>:<IoClose size={22}/>}
+    </button>
     </>
   );
 };

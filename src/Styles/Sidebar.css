@@ -2,19 +2,21 @@
 
 header {
 	position: fixed;
-	left:-120%;
-       transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
 	top: 0;
 	left: 0;
+	display: block;
 	padding: 4rem 0 0 0;
 	z-index: 1000;
-	display: block;
 	height: 100%;
 	width: 35rem;
 	background: black;
 	text-align: center;
 }
-
+.mobile{
+	display: block;
+	transition: all 0.5s ease-out;
+}
 header .user img {
 	height: 18rem;
 	width: 18rem;
