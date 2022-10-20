@@ -4,6 +4,7 @@ import { IoMdSend } from "react-icons/io";
 import { BsEnvelopeFill, BsFillTelephoneFill } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
 import { useState } from "react";
+const host="https://atharvaportfolio.herokuapp.com"
 const Contact = () => {
   const [credentials, setCredentials] = useState({
     name:"",
@@ -25,7 +26,7 @@ const Contact = () => {
       project,
       message
     } = credentials;
-    const response = await fetch("http://localhost:5000/adduser", {
+    const response = await fetch(`${host}/adduser`, {
       method: "POST", // *GET, POST, PUT, DELETE, etc.z
       headers: {
         "Content-Type": "application/json",
