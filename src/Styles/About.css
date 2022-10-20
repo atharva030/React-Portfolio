@@ -15,7 +15,7 @@
 	padding-left: 5em;
 }
 
- .info h3 {
+ .title-style {
 	font-size: 2rem;
 	color: #89cfe7;
 	padding: 1rem 0;
@@ -50,3 +50,10 @@
 	font-size: 25px;
 	color: #fff;
 }
+
+#p1 {     text-indent: 3px;
+	color: #89cfe7;
+    font-size: 19px;}
+#p2 {     text-indent: 92px;
+	color: white;
+    font-size: 18px;}
