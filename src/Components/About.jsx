@@ -9,6 +9,7 @@ const About = () => {
       <div className="com-container" id="about">
         <h1 className="heading">
           <span>About</span> Me
+          <hr />
         </h1>
         <div className="info">
           <h3 className="title-style">
