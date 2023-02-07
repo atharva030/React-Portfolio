@@ -38,6 +38,7 @@ const Contact = () => {
       }), // body data type must match "Content-Type" header
     });
     const json = await response.json();
+    if(!alert('Thank you for your response')){window.location.reload();}
     console.log(json);
   };
 
@@ -74,7 +75,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} autoComplete="off">
             <input type="text" placeholder="name" className="box" value={credentials.name} onChange={onchange} name="name" required />
             <input type="email" placeholder="email" className="box" value={credentials.email} onChange={onchange} name="email" required />
             <input type="text" placeholder="project" className="box" value={credentials.project} onChange={onchange} name="project" required />
