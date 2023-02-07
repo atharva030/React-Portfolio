@@ -4,7 +4,7 @@ import { IoMdSend } from "react-icons/io";
 import { BsEnvelopeFill, BsFillTelephoneFill } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
 import { useState } from "react";
-const host="https://atharvaportfolio.herokuapp.com"
+const host="https://serveratharva.vercel.app"
 const Contact = () => {
   const [credentials, setCredentials] = useState({
     name:"",
@@ -18,8 +18,6 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("heyyy");
-
     const {
       name,
       email,
