@@ -159,7 +159,7 @@ section {
  .mobile-menu-icon{
   display: block;
   position: absolute;
-  left: 91%;
+  left: 85%;
   color: white;
   background: #3b3535;
   top: 5%;
@@ -190,7 +190,29 @@ section {
 }
 
 @media (max-width:400px){
-
+  .home {
+     padding: 0 25px !important;
+  }
+  .info {
+    flex: 1 1 48rem;
+    padding: 1rem 1rem;
+    padding-left: 0 !important;
+}
+  .education {
+    padding: 5rem 3rem 10rem !important;
+}
+  .com-container {
+    padding: 11rem 3rem 10rem !important;
+}
+.education .box-container {
+  padding: 1rem 0rem !important;
+}
+.education .box-container .box {
+  margin: 4rem 0rem !important;
+}
+.contact .row {
+  flex-direction: column !important;
+}
   header{
       width: 100vw;
   }

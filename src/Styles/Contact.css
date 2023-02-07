@@ -30,7 +30,7 @@
 	color: #fff;
 	text-transform: none;
 	font-size: 1.7rem;
-	width: 44rem;
+	width: 41rem;
 }
 
 .contact .row form .box::placeholder {
@@ -40,7 +40,7 @@
 .contact .row form .message {
 	height: 15rem;
 	resize: none;
-	width: 44rem;
+	width: 41rem;
 }
 
 .contact .row .content .title {
