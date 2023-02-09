@@ -22,7 +22,7 @@ const Education = () => {
 
             <div className="box">
 
-                <span>2020</span>
+                <span>2018-20</span>
                 <h3>Higher Secondary Schooling</h3>
                 <p>2018-20 | Z.B. Patil Junior College, Dhule. </p>
                 <p> 12th Std. Examinations | Percentage : 81.08%</p>
@@ -31,10 +31,10 @@ const Education = () => {
 
             <div className="box">
 
-                <span>2022</span>
+                <span>2020-24</span>
                 <h3>2020-24 | 3rd Year B.Tech in Electronics and Telecommunication Engineering
                 </h3>
-                <p>Current CGPA : 9.10 / 10</p>
+                <p>Current CGPA : 8.56 / 10 (5th Semester)</p>
             </div>
 
         </div>

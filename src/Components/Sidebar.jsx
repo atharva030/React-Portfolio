@@ -3,7 +3,7 @@ import { BsTwitter, BsEnvelopeFill } from "react-icons/bs";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { GiHamburgerMenu} from "react-icons/gi";
 import { IoClose} from "react-icons/io5";
-import atharva  from '../Images/atharva.jpeg'
+import atharva  from '../assets/profile.jpg'
 import sidecss from "../Styles/Sidebar.css";
 const Sidebar = () => {
   const [isMobile, setIsMobile] = useState(false)
@@ -14,7 +14,7 @@ const Sidebar = () => {
         <div className="user">
           <img src={atharva} alt="profile photo" />
           <h3 className="name">Atharva Jagdale</h3>
-          <p className="post">MERN Stack Developer</p>
+          <p className="post">Full Stack Developer</p>
         </div>
 
         <nav className="navbar">

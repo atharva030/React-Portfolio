@@ -26,7 +26,7 @@
 	border-radius: 1.2rem;
 	width: 100%;
 	height: 78%;
-	object-fit: cover;
+	object-fit: contain;
 }
 
 .projects .box-container .box span {

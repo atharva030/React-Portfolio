@@ -24,28 +24,28 @@ const About = () => {
           </h3>
           <h3 className="title-style">
             <span> Technologies : </span> HTML, CSS, MongoDB, Express.js,
-            React.js, Node.js. Angular.js
+            React.js, Node.js. Angular.js, Git, Github, Gitlab
           </h3>
           <h3 className="title-style">
             <span> Internships/Experience : </span>
             
             <p id="p1"> 1. Auton Systems Pvt. Ltd. </p>
-          <p id="p2"> Technology Stack: Angular.js, Springboot</p>
-          <p id="p2">Post: Working as a web developer and developing the frontend and backend of the company</p>
+          <p id="p2"> Technology Stack: AngularJS, ReactJS, CoreUI</p>
+          <p id="p2">Post: Worked as a web developer to develope the website frontend of the company</p>
 
             <p id="p1">2. Stockmato: </p>
           <p id="p2"> Technology Stack: React.js, Node.js, Express.js</p>
-          <p id="p2">Post: Working as a Full stack developer and developing the frontend and backend of the company</p>
+          <p id="p2">Post: Worked as a Full stack developer to create the frontend and backend of the company</p>
           </h3>
           <h3 className="title-style">
-            <span> Post : </span> MERN Stack Developer
+            <span> Post : </span> Full Stack Developer
           </h3>
           <h3 className="title-style">
             <span> Language : </span> English, Marathi, Hindi
           </h3>
           <a
           target="_blank"
-            href="https://drive.google.com/file/d/1JIwrpgVb32F59f7SBeDFdmLqddVJKBZS/view?usp=sharing"
+            href="https://drive.google.com/file/d/1yULrAZT30oAeZQDScGdxw1_kfhuMsIv3/view?usp=share_link"
           >
             <button className="all-btn">
               View Resume
