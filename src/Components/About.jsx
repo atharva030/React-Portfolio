@@ -23,8 +23,8 @@ const About = () => {
             (2020-24)
           </h3>
           <h3 className="title-style">
-            <span> Technologies : </span> HTML, CSS, MongoDB, Express.js,
-            React.js, Node.js. Angular.js, Git, Github, Gitlab
+            <span> Technologies : </span>React.js, React Native, MongoDB, Express.js,
+             Node.js, Angular.js,  HTML, CSS, Git/Github, Gitlab
           </h3>
           <h3 className="title-style">
             <span> Internships/Experience : </span>
@@ -45,7 +45,7 @@ const About = () => {
           </h3>
           <a
           target="_blank"
-            href="https://drive.google.com/file/d/1yULrAZT30oAeZQDScGdxw1_kfhuMsIv3/view?usp=share_link"
+            href="https://drive.google.com/file/d/1-d8ACvBex_kPjWHAiJdg9uPCUpb1qTv_/view?usp=share_link"
           >
             <button className="all-btn">
               View Resume
