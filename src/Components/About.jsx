@@ -42,7 +42,7 @@ const About = () => {
           </h3>
           <a
           target="_blank"
-            href="https://drive.google.com/file/d/1-d8ACvBex_kPjWHAiJdg9uPCUpb1qTv_/view?usp=share_link"
+            href="https://drive.google.com/file/d/1R9egPGOJRxrkPbIIhe5MzuWHOXC45ZmG/view?usp=share_link"
           >
             <button className="all-btn">
               View Resume
