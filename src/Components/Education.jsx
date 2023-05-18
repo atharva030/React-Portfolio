@@ -4,8 +4,7 @@ const Education = () => {
   return (
     <section className="education" id="education">
       <h1 className="heading">
-        {" "}
-        My <span>Education</span>{" "}
+         <span>Education</span>{" "}
       </h1>
 
       <div className="box-container">

@@ -7,28 +7,28 @@ import Education from './Components/Education';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Achievement from './Components/Achievements';
 function App() {
   return (
     <>
-    
-    <Router>
-      <Sidebar/>
-      <Routes>
-        <Route exact path='/' element={ <Home/>}/>
-        <Route exact path='/#about' element={ <About/>}/>
-        <Route exact path='/#education' element={ <Education/>}/>
-        <Route exact path='/#projects' element={ <Projects/>}/>
-        <Route exact path='/#contact' element={ <Contact/>}/>
-     
-      </Routes>
-     
-      <About/>
-      <Education/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-  </Router> 
-    {/* <Router>
+
+      <Router>
+        <Sidebar />
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/#about' element={<About />} />
+          <Route exact path='/#education' element={<Education />} />
+          <Route exact path='/#projects' element={<Projects />} />
+          <Route exact path='/#contact' element={<Contact />} />
+        </Routes>
+        <About />
+        <Education />
+        <Projects />
+        <Achievement/>
+        <Contact />
+        <Footer />
+      </Router>
+      {/* <Router>
       <Sidebar/>
       <Home/>
       <About/>
@@ -37,7 +37,7 @@ function App() {
       <Contact/>
       <Footer/>
   </Router> */}
-  </>
+    </>
   );
 }
 

@@ -1,42 +1,53 @@
-.projects{
-    padding: 5rem 6rem 10rem;
+.projects {
+  padding: 5rem 6rem 10rem;
+}
+.achievement {
+  padding: 5rem 6rem 10rem;
+  height: 430px;
 
-;
+}
+.list-style {
+  margin-top: 7px;
+  font-size: 20px;
+  color: white;
 }
 .projects .box-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding: 2rem 0;
-}
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    display: grid;
+	grid-template-columns: 409px 420px;
+    grid-row: auto auto;
+
+  }
+
 
 .projects .box-container .box {
-	box-shadow: 0;
-	height: 25rem;
-	width: 31rem;
-	border-radius: 1rem;
-	margin: 2rem;
-	overflow: hidden;
-	cursor: pointer;
-	-webkit-box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 70%);
+  box-shadow: 0;
+  height: 29rem;
+  width: 38rem;
+  border-radius: 1rem;
+  margin: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 70%);
 }
 
 .projects .box-container .box img {
-	border-radius: 1.2rem;
-	width: 100%;
-	height: 78%;
-	object-fit: contain;
+  border-radius: 1.2rem;
+  width: 100%;
+  height: 78%;
+  object-fit: contain;
 }
 
 .projects .box-container .box span {
-	justify-content: center;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 1.8rem 0px;
-	font-size: 21px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.1rem 0px;
+  font-size: 21px;
 }
 
 .projects .box-container .box:hover img {
-	transform: scale(1.2);
+  transform: scale(1.1);
 }

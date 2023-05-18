@@ -11,9 +11,9 @@
 	transition: all .2s linear;
 }
 
-*::selection {
+/* *::selection {
 	background: crimson;
-}
+} */
 
 html {
 	font-size: 62.5%;
